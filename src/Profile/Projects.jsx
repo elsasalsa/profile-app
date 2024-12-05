@@ -13,7 +13,7 @@ function Projects() {
     return (
         <div>
             <Navbar />
-            <div className="p-m-4 center-container" style={{ display: 'flex', justifyContent: 'center', paddingTop: '30px' }}>
+            <div className="p-m-4 center-container" style={{ display: 'flex', justifyContent: 'center', paddingTop: '100px' }}>
                 <h1 style={{ textAlign: "center", marginBottom: "20px" }}>Web App Rekapitulasi Keterlambatan</h1>
 
                 <Stepper ref={stepperRef} style={{ flexBasis: '50rem', margin: '50px 20px' }}>
@@ -39,7 +39,7 @@ function Projects() {
                     </StepperPanel>
 
                     {/* Stepper Panel 2 */}
-                    <StepperPanel header="Input Data Keterlambatan">
+                    <StepperPanel header="Input Data">
                         <div className="flex flex-column h-12rem">
                             <div className="border-2 border-dashed surface-border border-round surface-ground flex-auto flex justify-content-center align-items-center font-medium">
                                 <img

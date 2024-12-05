@@ -1,0 +1,8 @@
+.navbar-fixed {
+    position: fixed; /* Tetap di posisi tertentu saat scroll */
+    top: 0; /* Tetap di bagian atas layar */
+    left: 0; /* Mulai dari paling kiri layar */
+    width: 100%; /* Lebar penuh layar */
+    z-index: 1000; /* Pastikan berada di atas elemen lain */
+    background-color: #ffffff; /* Warna background navbar */
+}

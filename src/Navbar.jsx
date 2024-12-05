@@ -4,6 +4,7 @@ import { Menubar } from "primereact/menubar";
 import "primereact/resources/themes/lara-light-blue/theme.css"; 
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
+import "./css/navbar.css"
 
 function Navbar() {
     const items = [
@@ -29,7 +30,7 @@ function Navbar() {
                     label: "Project 1",
                     icon: "pi pi-code",
                     command: () => {
-                        window.location.href = "/projects";
+                        window.location.href = "/project-keterlambatan";
                     },
                 },
                 {
@@ -37,6 +38,13 @@ function Navbar() {
                     icon: "pi pi-code",
                     command: () => {
                         window.location.href = "/project-sivina";
+                    },
+                },
+                {
+                    label: "Project 3",
+                    icon: "pi pi-code",
+                    command: () => {
+                        window.location.href = "/project-lsp";
                     },
                 },
             ],
@@ -55,7 +63,7 @@ function Navbar() {
     );    
 
     return (
-        <div>
+        <div className="navbar-fixed">
             <Menubar model={[]} start={start} end={<Menubar model={items} />} />
         </div>
     );
