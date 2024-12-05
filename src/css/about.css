@@ -1,0 +1,30 @@
+.custom-card {
+    width: 65%; /* Lebar card */
+    margin: 0 auto; /* Card berada di tengah */
+    padding: 20px; /* Spasi dalam card */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan opsional */
+}
+
+.card-content {
+    display: flex; /* Gunakan Flexbox untuk membagi bagian foto dan teks */
+    flex-direction: row; /* Tata letak horizontal */
+    align-items: center; /* Pusatkan vertikal */
+    gap: 20px; /* Jarak antara foto dan teks */
+}
+
+.photo-section {
+    flex: 0.5; /* Setengah lebar */
+    text-align: center; /* Foto di tengah */
+}
+
+.profile-photo {
+    width: 100%; /* Foto memenuhi setengah bagian */
+    height: auto; /* Menjaga rasio foto */
+    border-radius: 8px; /* Pinggiran foto */
+}
+
+.text-section {
+    flex: 1.5; /* Setengah lebar */
+    font-size: 21px; /* Ukuran teks */
+    margin-left: 20px;
+}
